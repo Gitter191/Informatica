@@ -1,0 +1,153 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    background-color: #df7c28
+  }
+  
+  .slogan {
+    padding: 10px;
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: 40px;
+  }
+  
+  .logoOnRigth {
+    float: right;
+  }
+  
+  .logo {
+    background-color: #9e3333;
+    border: 5px solid #ff7300;
+  }
+  
+  .producten {
+    position: fixed;
+    top: 30%;
+    left: 1%;
+  }
+  
+  
+  .ContainerImgText {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+  }
+  
+  .IntroductieText {
+    width: 800px;
+    background-color: #ff7300;
+    padding: 10px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin: 10px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 18px;
+  }
+  
+  .productenFotos1 {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0px;
+  }
+  
+  .productenFotos2 {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0px;
+  }
+  
+  .productenFotos3 {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0px;
+  }
+  
+  .productenFotos4 {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0px;
+  }
+  
+  .ProductenOmschrijving {
+    width: 1200px;
+    height: 330px;;
+    background-color: #ff7300;
+    padding: 10px;
+    margin: 10x;
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+  
+  
+  .ContactText {
+    width: 800px;
+    background-color: #ff7300;
+    padding: 10px;
+    margin: 10px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 16.5px;
+  }
+  
+  .contactContainer {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 830px 1fr 1fr;
+    column-gap: 0px;
+  }
+  
+  .ContactImage {
+    background-color: #ff7300;
+    padding: 29px;
+  }
+  
+  .overOnsText {
+    width: 1600px;
+    height: 1000px;;
+    background-color: #ff7300;
+    padding: 10px;
+    margin: 10x;
+    font-family: sans-serif;
+    font-size: 21px;
+  }
+  
+  figure {
+    top: 4px;
+    right: 20px;
+    position:absolute; 
+    margin: 1px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 16px;
+    overflow: hidden;
+    background-color: #9e3333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 60px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
